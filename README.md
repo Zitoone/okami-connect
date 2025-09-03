@@ -1,69 +1,61 @@
-# React + TypeScript + Vite
+# OKAMI Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Licence MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)
 
-Currently, two official plugins are available:
+Projet OKAMI Connect, réalisé dans le cadre d’une formation de développeur web et web mobile en 2025.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Il propose une partie FRONT avec un site web dynamique pour les festivaliers, et une partie BACK pour gérer les intervenants et leurs données.
 
-## Expanding the ESLint configuration
+## Table des matières
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-[Structure](#structure)
+-[Installation](#installation)
+-[Contributions](#contributions)
+-[Licence](#licence)
+-[Contact](#contact)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Chaque partie contient un readme.md détaillé:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+[_README Front_](FRONT/readmeFront.md)
+
+[_README Back_](BACK/readmeBack.md)
+
+## Installation
+
+### Prérequis
+
+- Node.js (v14 ou supérieur)
+- MongoDB (local ou Atlas)
+- Express.js
+- i18n Next pour la traduction du site
+
+Pour installer et configurer le projet, suivez les étapes ci-dessous:
+
+```bash
+git clone https://github.com/Zitoone/okami-connect
+cd okami-connect
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contributions
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Contributeurs :** Olivia Nanquette (développeur front et back)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Les contributions sont les bienvenues: 
+
+1. Fork le projet
+2. Créer une branche (git checkout -b feature/ma-fonctionnalité)
+3. Commit (git commit -m 'Ajout de ma fonctionnalité')
+4. Push (git push origin feature/ma-fonctionnalité)
+5. Ouvrir une Pull Request
+
+
+## Licence
+
+Ce projet est sous licence MIT Voir le fichier _LICENSE_ pour plus de détails.
+
+## Contact
+
+Pour toutes questions, contactez Olivia Nanquette (mailto: oliviananquette@yahoo.fr)
