@@ -8,11 +8,11 @@ Il propose une partie FRONT avec un site web dynamique pour les festivaliers, et
 
 ## Table des matières
 
--[Structure](#structure)
--[Installation](#installation)
--[Contributions](#contributions)
--[Licence](#licence)
--[Contact](#contact)
+- [Structure](#structure)
+- [Installation](#installation)
+- [Contributions](#contributions)
+- [Licence](#licence)
+- [Contact](#contact)
 
 ## Structure
 
