@@ -36,8 +36,12 @@ Pour installer et configurer le projet, suivez les étapes ci-dessous:
 ```bash
 git clone https://github.com/Zitoone/okami-connect
 cd okami-connect
-npm install
 ```
+
+Pour installer et lancer le back, reportez vous à : [_Installation Back_](BACK/readmeBack.md)
+
+
+Pour installer et lancer le front, reportez vous à : [_Installation Front_](FRONT/readmeFront.md)
 
 ## Contributions
 

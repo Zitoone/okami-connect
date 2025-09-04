@@ -16,8 +16,7 @@ Aprés avoir cloné le repository, suivre les étapes suivantes:
 
 1. Installer les dépendances:
 ```bash
-npm install express
-npm install dotenv
+npm install
 ```
 
 2. Configurer les variables d'environnement
@@ -38,7 +37,7 @@ node app.js
 nodemon app.js
 ```
 
-l'API sera disponible sur `http://localhost:3000``
+l'API sera disponible sur `http://localhost:3000`
 
 
 ## Utilisation de l'API
